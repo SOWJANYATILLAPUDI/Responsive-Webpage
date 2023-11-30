@@ -87,3 +87,46 @@
     margin-top: -1px;
     position: relative;
 }
+
+/* Media query for mobile phones */
+@media only screen and (max-width: 480px) {
+  .overlap-4 {
+    height: auto;
+    width: auto;
+    position: static;
+  }
+
+  .text-wrapper-37 {
+    font-size: 14px;
+    line-height: 26px;
+    width: 100%;
+    left: 20px;
+    top: 80px;
+  }
+
+  .text-wrapper-38 {
+    font-size: 36px;
+    line-height: 40px;
+    left: 20px;
+    top: 20px;
+  }
+
+  .frame-2 {
+    left: 20px;
+    top: 140px;
+    margin-left: 0;
+    width: 90%;
+  }
+
+  .frame-3 {
+    left: 20px;
+    top: 140px;
+    width: 90%;
+  }
+
+  .text-wrapper-39,
+  .text-wrapper-5 {
+    font-size: 16px;
+    margin-top: 0;
+  }
+}
