@@ -414,3 +414,36 @@
     top: 538px;
     width: 348px;
   }
+
+
+@media only screen and (max-width: 767px) {
+  .p {
+    font-size: 32px; /* Adjust font size for mobile */
+    left: 20px; /* Adjust positioning for mobile */
+    top: 300px; /* Adjust positioning for mobile */
+    width: 90%; /* Adjust width for mobile */
+  }
+
+  .text-wrapper-17,
+  .text-wrapper-18,
+  .text-wrapper-19,
+  .text-wrapper-20,
+  .text-wrapper-21,
+  .text-wrapper-22,
+  .text-wrapper-23,
+  .text-wrapper-24 {
+    font-size: 16px; /* Adjust font size for mobile */
+    left: 20px; /* Adjust positioning for mobile */
+    width: 90%; /* Adjust width for mobile */
+  }
+
+  .physics-wrapper,
+  .telescope-wrapper,
+  .clipboard-wrapper,
+  .chart-pie-wrapper {
+    left: 20px; /* Adjust positioning for mobile */
+    top: 400px; /* Adjust positioning for mobile */
+    width: 90%; /* Adjust width for mobile */
+  }
+
+}
