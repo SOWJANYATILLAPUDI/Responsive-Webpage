@@ -434,3 +434,56 @@
     margin: 0px 50px;
   }
   
+@media only screen and (max-width: 767px) {
+  .home-page .div {
+    height: auto; /* Adjust height for mobile */
+    width: 100%; /* Adjust width for mobile */
+    position: relative; /* Reset position for mobile */
+    padding: 20px; /* Adjust padding for mobile */
+  }
+
+  .home-page .overlap,
+  .home-page .overlap-group,
+  .home-page .ellipse,
+  .home-page .rectangle,
+  .home-page .img,
+  .home-page .text-wrapper,
+  .home-page .lost-in-space,
+  .home-page .group,
+  .home-page .overlap-wrapper,
+  .home-page .overlap-2,
+  .home-page .group-wrapper,
+  .home-page .overlap-group-wrapper,
+  .home-page .overlap-group-3,
+  .home-page .text-wrapper-3,
+  .home-page .text-wrapper-4,
+  .home-page .stopwatch,
+  .home-page .group-4,
+  .home-page .frame,
+  .home-page .text-wrapper-5,
+  .home-page .at-odissey-our,
+  .home-page .text-wrapper-6,
+  .home-page .play-wrapper,
+  .home-page .play,
+  .home-page .odyssey,
+  .home-page .text-wrapper-7,
+  .home-page .text-wrapper-8,
+  .home-page .text-wrapper-9,
+  .home-page .text-wrapper-10,
+  .home-page .text-wrapper-11,
+  .home-page .text-wrapper-12,
+  .home-page .text-wrapper-13,
+  .home-page .text-wrapper-14,
+  .home-page .text-wrapper-15,
+  .home-page .div-wrapper,
+  .home-page .text-wrapper-16 {
+    /* Reset or adjust specific properties for mobile */
+    position: relative;
+    width: 100%;
+    left: 0;
+    top: 0;
+    height: auto;
+    margin: 10px 0;
+  }
+ 
+}
